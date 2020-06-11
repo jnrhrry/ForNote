@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Mes Notes</string>
+    <string name="add">ajouter un nouveau</string>
+    <string name="titlehint">Entrez le titre</string>
+    <string name="deshint">Écrivez votre note</string>
+</resources>

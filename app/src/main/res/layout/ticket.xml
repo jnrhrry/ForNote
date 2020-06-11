@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/background_layout"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/tVTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TITLE"
+            android:textColor="#020000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:paddingLeft="10pt"
+            android:paddingRight="5pt"
+            android:id="@+id/tVDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:text="Life is to be enjoyed, not just endured. Live and work but do not forget to play, to have fun in life and really enjoy it. When fun gets deep enough, it can heal the world. There is no pleasure in having nothing to do; the fun is having lots to do and not doing it."
+            android:textColor="#050000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="225dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/ivDelete"
+                android:layout_width="15pt"
+                android:layout_height="15pt"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/outline_delete_black_18dp" />
+
+            <ImageView
+                android:id="@+id/ivEdit"
+                android:layout_width="15pt"
+                android:layout_height="15pt"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/outline_edit_black_18dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
